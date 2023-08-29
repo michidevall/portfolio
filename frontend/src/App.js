@@ -1,5 +1,4 @@
 import { useRef, useEffect, useState } from 'react'
-import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav'
 
@@ -37,7 +36,7 @@ function App() {
 
       <div className='md:h-screen pt-10' ref={homeRef}>
         <div className='md:w-2/4 w-10/12 mx-auto mt-10 mb-3'>
-          <h1 className='text-5xl mb-3'>Test Tester</h1>
+          <h1 className='text-5xl mb-3'>Michi Devall</h1>
           <p className='text-2xl text-cyan-900 ml-2'>Software Engineer</p>
         </div>
 
