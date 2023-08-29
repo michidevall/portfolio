@@ -1,11 +1,12 @@
 
 import './App.css';
+import Nav from './components/Nav'
 
 function App() {
   return (
-    <div className ='w-1/2 mx-auto text-center text-5xl'>
-      Home
-</div>
+    <>
+      <Nav />
+    </>
   );
 }
 
