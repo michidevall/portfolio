@@ -89,11 +89,12 @@ function App() {
           <p className='text-lg text-cyan-900'>Take a look at some of my most recent projects that I have built and the linked code on GitHub.</p>
         </div>
 
-        <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mx-5'>
+        <div className='grid md:grid-cols-4 grid-cols-2 gap-4 mx-5'>
           {portfolio && portfolio.map(p => (
             <div key={p.id} className='border rounded-sm p-3 shadow'>
               <h3 className='text-lg border-b-2 border-slate-300 text-slate-800'>{p.title}</h3>
-              <a className='py-2 text-blue-500 hover:text-blue-700 transition cursor-pointer' href={p.url}>View Code</a>
+              <a className='py-2 text-blue-500 hover:text-blue-700 transition cursor-pointer' href={p.url}>View Code</a> 
+              <a className='mx-2 py-2 text-blue-500 hover:text-blue-700 transition cursor-pointer' href={p.url}>View Project</a>
               <p>{p.description}</p>
             </div>
           ))}
