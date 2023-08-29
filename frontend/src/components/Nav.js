@@ -17,7 +17,7 @@ const Nav = ({ homeRef, educationRef, workRef, portfolioRef }) => {
     <>
       <div className='hidden md:block sticky top-0'>
       	<ul className='flex bg-stone-100 cursor-pointer'>
-      		<li className='mx-3 my-4 text-2xl text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(homeRef)}>Test Portfolio</li>
+      		<li className='mx-3 my-4 text-2xl text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(homeRef)}>Michi Devall</li>
       		<li className='mx-3 my-5 text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(educationRef)}>Education</li>
       		<li className='mx-3 my-5 text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(workRef)}>Work Experience</li>
       		<li className='mx-3 my-5 text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(portfolioRef)}>Portfolio</li>
@@ -26,7 +26,7 @@ const Nav = ({ homeRef, educationRef, workRef, portfolioRef }) => {
 
       <div className='md:hidden block sticky top-0'>
         <div className='flex justify-between w-100 bg-stone-100 cursor-pointer'>
-          <div className='mx-3 my-4 text-2xl text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(homeRef)}>Test Portfolio</div>
+          <div className='mx-3 my-4 text-2xl text-slate-900 hover:text-slate-700 transition' onClick={() => executeScroll(homeRef)}>Michi Devall</div>
           <svg
             onClick={navIconHandler}
             className='w-8 h-8 text-slate-900 my-4 mr-5'
