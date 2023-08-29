@@ -9,7 +9,7 @@ function App() {
 
       <div className='h-screen'>
         <div className='w-2/4 mx-auto mt-10 mb-3'>
-          <h1 className='text-5xl mb-3'>Test Tester</h1>
+          <h1 className='text-5xl mb-3'>Michi Devall</h1>
           <p className='text-2xl text-cyan-900 ml-2'>Software Engineer</p>
         </div>
 
